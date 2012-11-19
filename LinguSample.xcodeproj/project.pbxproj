@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CAE510A14569E2B00E7FC15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAE510914569E2B00E7FC15 /* UIKit.framework */; };
+		4CAE510C14569E2B00E7FC15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAE510B14569E2B00E7FC15 /* Foundation.framework */; };
+		4CAE510E14569E2B00E7FC15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAE510D14569E2B00E7FC15 /* CoreGraphics.framework */; };
+		4CAE511414569E2B00E7FC15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE511214569E2B00E7FC15 /* InfoPlist.strings */; };
+		4CAE511614569E2B00E7FC15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE511514569E2B00E7FC15 /* main.m */; };
+		4CAE511A14569E2B00E7FC15 /* LSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE511914569E2B00E7FC15 /* LSAppDelegate.m */; };
+		4CAE511D14569E2B00E7FC15 /* LSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAE511C14569E2B00E7FC15 /* LSViewController.m */; };
+		4CAE512014569E2B00E7FC15 /* LSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CAE511E14569E2B00E7FC15 /* LSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CAE510514569E2B00E7FC15 /* LinguSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinguSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAE510914569E2B00E7FC15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CAE510B14569E2B00E7FC15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CAE510D14569E2B00E7FC15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CAE511114569E2B00E7FC15 /* LinguSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinguSample-Info.plist"; sourceTree = "<group>"; };
+		4CAE511314569E2B00E7FC15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CAE511514569E2B00E7FC15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CAE511714569E2B00E7FC15 /* LinguSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinguSample-Prefix.pch"; sourceTree = "<group>"; };
+		4CAE511814569E2B00E7FC15 /* LSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSAppDelegate.h; sourceTree = "<group>"; };
+		4CAE511914569E2B00E7FC15 /* LSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSAppDelegate.m; sourceTree = "<group>"; };
+		4CAE511B14569E2B00E7FC15 /* LSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSViewController.h; sourceTree = "<group>"; };
+		4CAE511C14569E2B00E7FC15 /* LSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSViewController.m; sourceTree = "<group>"; };
+		4CAE511F14569E2B00E7FC15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAE510214569E2B00E7FC15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAE510A14569E2B00E7FC15 /* UIKit.framework in Frameworks */,
+				4CAE510C14569E2B00E7FC15 /* Foundation.framework in Frameworks */,
+				4CAE510E14569E2B00E7FC15 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAE50FA14569E2A00E7FC15 = {
+			isa = PBXGroup;
+			children = (
+				4CAE510F14569E2B00E7FC15 /* LinguSample */,
+				4CAE510814569E2B00E7FC15 /* Frameworks */,
+				4CAE510614569E2B00E7FC15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAE510614569E2B00E7FC15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE510514569E2B00E7FC15 /* LinguSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAE510814569E2B00E7FC15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE510914569E2B00E7FC15 /* UIKit.framework */,
+				4CAE510B14569E2B00E7FC15 /* Foundation.framework */,
+				4CAE510D14569E2B00E7FC15 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CAE510F14569E2B00E7FC15 /* LinguSample */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE511814569E2B00E7FC15 /* LSAppDelegate.h */,
+				4CAE511914569E2B00E7FC15 /* LSAppDelegate.m */,
+				4CAE511B14569E2B00E7FC15 /* LSViewController.h */,
+				4CAE511C14569E2B00E7FC15 /* LSViewController.m */,
+				4CAE511E14569E2B00E7FC15 /* LSViewController.xib */,
+				4CAE511014569E2B00E7FC15 /* Supporting Files */,
+			);
+			path = LinguSample;
+			sourceTree = "<group>";
+		};
+		4CAE511014569E2B00E7FC15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CAE511114569E2B00E7FC15 /* LinguSample-Info.plist */,
+				4CAE511214569E2B00E7FC15 /* InfoPlist.strings */,
+				4CAE511514569E2B00E7FC15 /* main.m */,
+				4CAE511714569E2B00E7FC15 /* LinguSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CAE510414569E2B00E7FC15 /* LinguSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAE512314569E2B00E7FC15 /* Build configuration list for PBXNativeTarget "LinguSample" */;
+			buildPhases = (
+				4CAE510114569E2B00E7FC15 /* Sources */,
+				4CAE510214569E2B00E7FC15 /* Frameworks */,
+				4CAE510314569E2B00E7FC15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinguSample;
+			productName = LinguSample;
+			productReference = 4CAE510514569E2B00E7FC15 /* LinguSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAE50FC14569E2A00E7FC15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "RWTH Aachen University";
+			};
+			buildConfigurationList = 4CAE50FF14569E2A00E7FC15 /* Build configuration list for PBXProject "LinguSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CAE50FA14569E2A00E7FC15;
+			productRefGroup = 4CAE510614569E2B00E7FC15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAE510414569E2B00E7FC15 /* LinguSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAE510314569E2B00E7FC15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAE511414569E2B00E7FC15 /* InfoPlist.strings in Resources */,
+				4CAE512014569E2B00E7FC15 /* LSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAE510114569E2B00E7FC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAE511614569E2B00E7FC15 /* main.m in Sources */,
+				4CAE511A14569E2B00E7FC15 /* LSAppDelegate.m in Sources */,
+				4CAE511D14569E2B00E7FC15 /* LSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CAE511214569E2B00E7FC15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAE511314569E2B00E7FC15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CAE511E14569E2B00E7FC15 /* LSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAE511F14569E2B00E7FC15 /* en */,
+			);
+			name = LSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CAE512114569E2B00E7FC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CAE512214569E2B00E7FC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CAE512414569E2B00E7FC15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinguSample/LinguSample-Prefix.pch";
+				INFOPLIST_FILE = "LinguSample/LinguSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CAE512514569E2B00E7FC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinguSample/LinguSample-Prefix.pch";
+				INFOPLIST_FILE = "LinguSample/LinguSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAE50FF14569E2A00E7FC15 /* Build configuration list for PBXProject "LinguSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAE512114569E2B00E7FC15 /* Debug */,
+				4CAE512214569E2B00E7FC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAE512314569E2B00E7FC15 /* Build configuration list for PBXNativeTarget "LinguSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAE512414569E2B00E7FC15 /* Debug */,
+				4CAE512514569E2B00E7FC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAE50FC14569E2A00E7FC15 /* Project object */;
+}
