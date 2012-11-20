@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C4ABEF4165BBAC100DD3907 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4ABEF3165BBAC100DD3907 /* icon@2x.png */; };
+		4C4ABEF6165BBBFF00DD3907 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C4ABEF5165BBBFF00DD3907 /* icon.png */; };
 		4CAE510A14569E2B00E7FC15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAE510914569E2B00E7FC15 /* UIKit.framework */; };
 		4CAE510C14569E2B00E7FC15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAE510B14569E2B00E7FC15 /* Foundation.framework */; };
 		4CAE510E14569E2B00E7FC15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAE510D14569E2B00E7FC15 /* CoreGraphics.framework */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C4ABEF3165BBAC100DD3907 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icon@2x.png"; sourceTree = "<group>"; };
+		4C4ABEF5165BBBFF00DD3907 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icon.png; sourceTree = "<group>"; };
 		4CAE510514569E2B00E7FC15 /* LinguSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinguSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAE510914569E2B00E7FC15 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CAE510B14569E2B00E7FC15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,6 +94,8 @@
 		4CAE511014569E2B00E7FC15 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C4ABEF5165BBBFF00DD3907 /* icon.png */,
+				4C4ABEF3165BBAC100DD3907 /* icon@2x.png */,
 				4CAE511114569E2B00E7FC15 /* LinguSample-Info.plist */,
 				4CAE511214569E2B00E7FC15 /* InfoPlist.strings */,
 				4CAE511514569E2B00E7FC15 /* main.m */,
@@ -151,6 +157,8 @@
 			files = (
 				4CAE511414569E2B00E7FC15 /* InfoPlist.strings in Resources */,
 				4CAE512014569E2B00E7FC15 /* LSViewController.xib in Resources */,
+				4C4ABEF4165BBAC100DD3907 /* icon@2x.png in Resources */,
+				4C4ABEF6165BBBFF00DD3907 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
