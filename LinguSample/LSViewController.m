@@ -54,6 +54,10 @@
 }
 
 #pragma mark - UI event handlers
+- (void)doneEditing:(id)sender {
+	[self.mainTextView resignFirstResponder];
+}
+
 - (void)segmentedControlSelectionChanged:(id)sender;
 {
 	switch ([(UISegmentedControl*) sender selectedSegmentIndex]) {
@@ -95,10 +99,22 @@
                                                {
                                                 [formattedString addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:tokenRange];
                                                }
+												// Log info to console for debugging purposes
 												NSString *currentEntity = [textToAnalyse substringWithRange:tokenRange];
 												NSLog(@"%@ is a %@, tokenRange (%d,%d)",currentEntity,tag,tokenRange.length,tokenRange.location);
 											}];
     self.mainTextView.attributedText = formattedString;
 }
+
+#pragma mark - UITextViewDelegate Methods
+// Decolor the string before editing
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
+{
+	NSMutableAttributedString *decoloredString = [self.mainTextView.attributedText mutableCopy];
+	[decoloredString removeAttribute:NSForegroundColorAttributeName range:NSMakeRange(0, decoloredString.length)];
+	self.mainTextView.attributedText = decoloredString;
+	return YES;
+}
+
 @end
 

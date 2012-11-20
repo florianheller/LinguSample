@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LSViewController : UIViewController
+@interface LSViewController : UIViewController <UITextViewDelegate>
 
 
 @property (strong) IBOutlet UITextView *mainTextView;
 @property (strong) IBOutlet UISegmentedControl *typeSelector;
 
+- (IBAction)doneEditing:(id)sender;
 - (void)segmentedControlSelectionChanged:(id)sender;
 @end
