@@ -81,9 +81,8 @@
 	NSRange stringRange = NSMakeRange(0, textToAnalyse.length);
 	
 	// Dictionary with a language map
-	NSArray *language = [NSArray arrayWithObjects:@"en",@"de",@"fr",nil];
-	NSDictionary* languageMap = [NSDictionary dictionaryWithObject:language forKey:@"Latn"];
-	
+	NSDictionary* languageMap = @{@"Latn" : @[@"en",@"de",@"fr"]};
+
     // Mark the currently selected entities
     NSMutableAttributedString *formattedString = [[NSMutableAttributedString alloc] initWithString:textToAnalyse];
     
